@@ -1,0 +1,46 @@
+.login {
+  text-align: center;
+}
+.login__Note {
+  padding-top: 20px;
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.login__Provider {
+  margin: 0 auto;
+  height: 80vh;
+  display: block;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.demo {
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+  align-self: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.login__Provider a {
+  color: black;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  margin-left: 5px;
+  font-weight: 800;
+}
+
+.login__Icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  align-items: center;
+  align-self: center;
+}
